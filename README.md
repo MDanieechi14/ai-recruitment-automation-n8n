@@ -58,4 +58,4 @@ The workflow starts with a Gmail trigger, filters and loops through attachments,
 **Built by Marla Daniella** – Tech VA & AI Automation Builder  
 Specializing in n8n workflows, AI integrations, and scalable business automation.
 
-[View Live Demo](#) | [Export n8n Workflow JSON](#) | [Contact for similar automations](mailto:your.email@example.com)
+[View Live Demo](#) | [Export n8n Workflow JSON](#) | [Contact for similar automations](mailto:marladaniella.baay@gmail.com)
