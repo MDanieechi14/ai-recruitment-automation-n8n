@@ -51,4 +51,4 @@ Built a complete AI automation system that processes resumes, evaluates candidat
 **Built by Marla Daniella** – Tech VA & AI Automation Builder  
 Specializing in AI workflows, Python automation, and scalable business systems.
 
-[View Deployed App](#) | [Contact for customization](mailto:your.email@example.com)
+[View Deployed App](#) | [Contact for customization](mailto:marladaniella.baay@gmail.com)
