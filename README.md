@@ -1,54 +1,132 @@
 # AI Recruitment Automation System
 
-**Production-ready AI-powered resume screening and candidate outreach system.**
-
-## Problem
-Manual resume screening is time-consuming and inconsistent. Hiring teams spend hours reviewing each resume, leading to fatigue, delays, and biased decisions.
-
-## Solution
-Built a complete AI automation system that processes resumes, evaluates candidates against job requirements, stores structured data, and generates email drafts for next steps. Deployed on Render for reliable 24/7 operation.
-
-## Key Features
-- Resume upload and text extraction
-- AI-based candidate evaluation and match scoring
-- Smart branching for passed/failed applicants
-- CRM-style data storage in Google Sheets
-- Automated email draft generation (interview invites or rejections)
-- Full audit logging and duplicate checking
-
-## Tech Stack
-- **Backend**: Python (Flask/FastAPI)
-- **AI Layer**: OpenAI API
-- **Automation & Deployment**: Render (with render.yaml)
-- **Storage**: Google Sheets
-- **Dependencies**: Managed via requirements.txt
-
-## Project Structure
-- `app.py` – Main application with AI evaluation logic
-- `render.yaml` – Deployment configuration for Render
-- `requirements.txt` – All Python dependencies
-- `/screenshots/` – Workflow and interface visuals
-
-## How It Works
-1. Resume is received and uploaded
-2. Python processes the file and sends data to AI for evaluation
-3. System calculates match score and determines next action
-4. Results are stored and personalized email drafts are generated
-5. Everything runs automatically on Render with cron support
-
-## Outcome / Impact
-- Reduced manual screening time by ~85%
-- Delivered consistent, data-driven candidate evaluations
-- Eliminated repetitive admin work for hiring teams
-- Production-grade system that runs reliably without constant monitoring
-
-## Portfolio Highlights
-- End-to-end AI automation replacing manual HR processes
-- Clean Python backend deployed on Render
-- Ready for client customization or further integration
+AI-powered workflow that automates resume screening, candidate evaluation, and outreach—reducing manual hiring workload and improving consistency.
 
 ---
-**Built by Marla Daniella** – Tech VA & AI Automation Builder  
-Specializing in AI workflows, Python automation, and scalable business systems.
 
-[View Deployed App](#) | [Contact for customization](mailto:marladaniella.baay@gmail.com)
+## Overview
+This project is an end-to-end recruitment automation system designed to replace manual resume screening with a structured, AI-driven workflow. It processes applicants, evaluates them against job criteria, and generates next-step actions automatically.
+
+---
+
+## The Problem
+Hiring teams spend hours manually reviewing resumes, leading to:
+- Slow candidate processing  
+- Inconsistent evaluations  
+- Repetitive administrative work  
+- Delays in candidate communication  
+
+---
+
+## The Solution
+Built a production-ready automation system that:
+
+- Extracts and structures resume data  
+- Evaluates candidates using AI scoring logic  
+- Automatically ranks and filters applicants  
+- Generates personalized email drafts (interview / rejection)  
+- Stores and tracks results in a centralized system  
+
+Deployed on Render for continuous, reliable execution.
+
+---
+
+## System Capabilities
+
+- **Resume Processing**  
+  Upload and extract relevant candidate data automatically  
+
+- **AI Candidate Scoring**  
+  Evaluate applicants based on job criteria using OpenAI  
+
+- **Automated Decision Flow**  
+  Smart branching for qualified vs. unqualified candidates  
+
+- **Data Tracking (CRM-style)**  
+  Store structured candidate data in Google Sheets  
+
+- **Automated Outreach**  
+  Generate ready-to-send email drafts for next steps  
+
+- **Reliability Features**  
+  Logging, duplicate detection, and error handling  
+
+---
+
+## Tech Stack
+
+- **Backend**: Python (Flask / FastAPI)  
+- **AI Layer**: OpenAI API  
+- **Deployment**: Render (with `render.yaml`)  
+- **Data Storage**: Google Sheets  
+- **Environment**: Managed via `requirements.txt`  
+
+---
+
+## How the System Works
+
+1. Resume is uploaded and processed  
+2. Data is extracted and sent to AI for evaluation  
+3. Candidate receives a match score based on criteria  
+4. System determines outcome (pass / fail)  
+5. Results are stored and email drafts are generated  
+6. Workflow runs automatically via deployed backend  
+
+---
+
+## Impact
+
+- Reduced screening time from ~3 hours to ~20 minutes per batch  
+- Standardized candidate evaluation using AI scoring  
+- Eliminated repetitive manual review and admin tasks  
+- Enabled faster response time to applicants  
+- Built a system that runs continuously without manual intervention  
+
+---
+
+## Proof of Work
+
+Available in this repository:
+
+- Workflow screenshots  
+- Google Sheets output samples  
+- Backend code and evaluation logic  
+- Deployment configuration (`render.yaml`)  
+
+---
+
+## Project Structure
+
+- `app.py` – Core backend and AI evaluation logic  
+- `render.yaml` – Deployment configuration  
+- `requirements.txt` – Dependencies  
+- `/screenshots/` – Workflow and system outputs  
+
+---
+
+## Use Cases
+
+- Recruitment teams handling high application volume  
+- Startups needing faster hiring pipelines  
+- Businesses looking to automate HR screening processes  
+
+---
+
+## Key Takeaway
+
+This project demonstrates the ability to design and deploy **real-world automation systems** that replace manual workflows with scalable, AI-powered solutions.
+
+---
+
+## About the Builder
+
+**Marla Daniella**  
+AI Automation & Workflow Systems Builder  
+
+Focused on building systems that reduce manual work, streamline operations, and integrate AI into real business processes.
+
+📩 marladaniella.baay@gmail.com  
+
+---
+
+[View Deployed App](#) • [Contact for Custom Automation Solutions](mailto:marladaniella.baay@gmail.com)
