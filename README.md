@@ -31,6 +31,11 @@ Deployed on Render for continuous, reliable execution.
 
 ---
 
+### Workflow Overview
+<img width="1616" height="801" alt="image" src="https://github.com/user-attachments/assets/e4e68d19-1715-40b9-9fad-d6dff3642c99" />
+
+---
+
 ## System Capabilities
 
 - **Resume Processing**  
